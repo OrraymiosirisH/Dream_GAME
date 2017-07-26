@@ -120,7 +120,6 @@ public class Game {
 			contin = input.next();
 		} while (contin.equalsIgnoreCase("yes"));
 		System.out.println("Thanks for playing and have a good day");
-
 	}
 
 	public static void levelChoice() {
@@ -129,11 +128,11 @@ public class Game {
 				".......................................WELCOME TO JUNGLE Adventure Game..............................................");
 
 		System.out.println(
-				" You are in a creepy jungle all by youreslf, While you are walking you see a sign posting 3 destinations");
-		System.out.println("Where would you go?: to take the first unknown destination press 1");
-		System.out.println("Where would you go?: to take the second unknown destination press 2");
-		System.out.println("Where would you go?: to take the third unknown destination press 3");
-		System.out.println("Plz choose a level");
+				" You are in a creepy jungle all by youreslf, While you are walking you see a sign posting 3 destinations.");
+		System.out.println("Where would you go?: to take the first unknown destination press 1.");
+		System.out.println("Where would you go?: to take the second unknown destination press 2.");
+		System.out.println("Where would you go?: to take the third unknown destination press 3.");
+		System.out.println("Plz choose a level:");
 	}
 
 }
