@@ -79,7 +79,7 @@ public class Game {
 					} else if (answer == 2) {
 						System.out.println("The Ugly man comforts you and ask you if you are ok, Hungry etc...");
 						System.out.println(
-								"So never trust in appeareances!!! just because he is ugly does not mean he is bad.");
+								"So never trust in appearance!!! just because he is ugly does not mean he is bad.");
 
 					}
 				} else if (select == 2) {
@@ -90,9 +90,9 @@ public class Game {
 
 			else if (level == 3) {
 				System.out.println(
-						"This Road is known for having monsters disguised as humans,lookin to kill and feed. Good luck with it");
+						"This Road is known for having monsters disguised as humans,looking to kill and feed. Good luck with it");
 				System.out.println(
-						"While you are walking you see,two roads but you do know where they may take you .Chose (1)for road 1 or (2) for road 2?");
+						"While you are walking you see,two roads but you do know where they may take you .Choose (1)for road 1 or (2) for road 2?");
 				int roadSelect = input.nextInt();
 				if (roadSelect == 1) {
 					System.out
